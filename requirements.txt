@@ -1,0 +1,9 @@
+openai
+termcolor
+python-dotenv
+pillow
+tenacity
+matplotlib
+requests
+flask
+tiktoken

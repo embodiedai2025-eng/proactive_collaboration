@@ -1,0 +1,21 @@
+# Python cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution directories
+dist/
+build/
+*.egg-info/
+
+./logs
+./outputs
+./result
+
+# Exclude all dot-prefixed files and directories (except .git which is handled by git itself)
+.*
+
+# But explicitly include .gitignore and .env files
+!.gitignore
+!.env
+!.env.*

@@ -1,0 +1,6950 @@
+[
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_2"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_1", "Robot_4"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_1", "Robot_0", "Robot_2", "Robot_3"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_1", "Robot_5", "Robot_0", "Robot_2"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_3",
+      "Robot_4",
+      "Robot_5",
+      "Robot_2",
+      "Robot_0",
+      "Robot_1"
+    ],
+    "object_count": {
+      "missed": 2,
+      "trapped": 0
+    },
+    "misplaced_objects": ["Tomato_01", "Newspaper_01"],
+    "object_locations": [
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_0"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_2", "Robot_1"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_0", "Robot_2", "Robot_1"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_1", "Robot_2", "Robot_5", "Robot_4"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_4",
+      "Robot_5",
+      "Robot_2",
+      "Robot_1",
+      "Robot_0",
+      "Robot_3"
+    ],
+    "object_count": {
+      "missed": 2,
+      "trapped": 1
+    },
+    "misplaced_objects": ["CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_1"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_4", "Robot_1"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_5", "Robot_2", "Robot_4"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_3", "Robot_1", "Robot_2", "Robot_4"],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_0",
+      "Robot_2",
+      "Robot_5",
+      "Robot_4",
+      "Robot_1",
+      "Robot_3"
+    ],
+    "object_count": {
+      "missed": 2,
+      "trapped": 2
+    },
+    "misplaced_objects": ["SoapBottle_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_1"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_0", "Robot_1"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_1", "Robot_4", "Robot_3", "Robot_5"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_3", "Robot_0", "Robot_2", "Robot_1"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_5",
+      "Robot_1",
+      "Robot_2",
+      "Robot_3",
+      "Robot_4",
+      "Robot_0"
+    ],
+    "object_count": {
+      "missed": 3,
+      "trapped": 0
+    },
+    "misplaced_objects": ["SoapBottle_01", "CellPhone_01", "CreditCard_01"],
+    "object_locations": [
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.49, 1.0, -3.41],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_5"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_1", "Robot_0"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_2", "Robot_4", "Robot_3"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_0", "Robot_2", "Robot_3", "Robot_5"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_1",
+      "Robot_0",
+      "Robot_2",
+      "Robot_3",
+      "Robot_5",
+      "Robot_4"
+    ],
+    "object_count": {
+      "missed": 3,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Statue_01", "SoapBottle_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_4"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_5", "Robot_4"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_0", "Robot_1", "Robot_4"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_3", "Robot_2", "Robot_0", "Robot_1"],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_1",
+      "Robot_3",
+      "Robot_0",
+      "Robot_4",
+      "Robot_5",
+      "Robot_2"
+    ],
+    "object_count": {
+      "missed": 3,
+      "trapped": 2
+    },
+    "misplaced_objects": ["Cup_01", "Tomato_01", "Mug_01"],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_3"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_5", "Robot_2"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_2", "Robot_3", "Robot_4"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_0", "Robot_3", "Robot_4", "Robot_1"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_1",
+      "Robot_0",
+      "Robot_3",
+      "Robot_4",
+      "Robot_2",
+      "Robot_5"
+    ],
+    "object_count": {
+      "missed": 4,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "CellPhone_01",
+      "CreditCard_01",
+      "CD_01",
+      "SoapBar_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.32, 1.0, 5.31],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.43, 1.0, 4.06],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.32, 1.0, -2.42],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_4"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_5", "Robot_4"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_2", "Robot_4", "Robot_0"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_1", "Robot_3", "Robot_5", "Robot_2", "Robot_0"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_5",
+      "Robot_1",
+      "Robot_4",
+      "Robot_0",
+      "Robot_3",
+      "Robot_2"
+    ],
+    "object_count": {
+      "missed": 4,
+      "trapped": 1
+    },
+    "misplaced_objects": ["Mug_01", "Bread_01", "Lettuce_01", "CD_01"],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_1"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_1"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_2", "Robot_1"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_1", "Robot_4", "Robot_2"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_5", "Robot_4", "Robot_1", "Robot_2"],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_4",
+      "Robot_5",
+      "Robot_0",
+      "Robot_1",
+      "Robot_2",
+      "Robot_3"
+    ],
+    "object_count": {
+      "missed": 4,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "Mug_01",
+      "SoapBottle_01",
+      "Potato_01",
+      "CellPhone_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [0.39, 1.0, 3.615],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_4"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_0", "Robot_3"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_3", "Robot_0", "Robot_4", "Robot_5"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_3", "Robot_5", "Robot_0", "Robot_2"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_2",
+      "Robot_4",
+      "Robot_1",
+      "Robot_5",
+      "Robot_3",
+      "Robot_0"
+    ],
+    "object_count": {
+      "missed": 5,
+      "trapped": 0
+    },
+    "misplaced_objects": [
+      "Cup_01",
+      "Newspaper_01",
+      "CreditCard_01",
+      "Mug_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.9, 1.0, 1.62],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.05, 1.0, -2.34],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_3"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_0", "Robot_5", "Robot_1"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_5", "Robot_1", "Robot_0"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_4", "Robot_0", "Robot_5", "Robot_2", "Robot_3"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_2",
+      "Robot_0",
+      "Robot_4",
+      "Robot_1",
+      "Robot_5",
+      "Robot_3"
+    ],
+    "object_count": {
+      "missed": 5,
+      "trapped": 1
+    },
+    "misplaced_objects": [
+      "Potato_01",
+      "CellPhone_01",
+      "Statue_01",
+      "Newspaper_01",
+      "Tomato_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [-0.648, 1.0, 0.371],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [4.08, 1.0, 3.98],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-3.4, 1.0, -2.18],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_5", "Robot_2"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_1", "Robot_0"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_2", "Robot_5", "Robot_4", "Robot_0"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [1.027, 0.9, -2.874],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": ["Robot_1", "Robot_2", "Robot_5", "Robot_4", "Robot_0"],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  },
+  {
+    "scene_index": "4",
+    "robot_pool": {
+      "Robot_0": {
+        "type": "ManipulaThor",
+        "name": "Robot_0",
+        "init_location": [-1.79, 0.9, -2.58],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 100,
+        "speed": 100
+      },
+      "Robot_1": {
+        "type": "StretchRE",
+        "name": "Robot_1",
+        "init_location": [3.096, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1.1,
+        "strength": 40,
+        "speed": 120
+      },
+      "Robot_2": {
+        "type": "LowThor",
+        "name": "Robot_2",
+        "init_location": [4.29, 0.9, -3.34],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 1,
+        "strength": 50,
+        "speed": 100
+      },
+      "Robot_3": {
+        "type": "LoCoBot",
+        "name": "Robot_3",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": 0.9,
+        "strength": 70,
+        "speed": 150
+      },
+      "Robot_4": {
+        "type": "HighThor",
+        "name": "Robot_4",
+        "init_location": [2.391, 0.9, -2.93],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 100
+      },
+      "Robot_5": {
+        "type": "Cleaner",
+        "name": "Robot_5",
+        "init_location": [1.773, 0.9, -2.884],
+        "init_rotation": [0.0, 90.0, 0.0],
+        "robot_high": 3,
+        "robot_low": -0.5,
+        "arm_length": -1,
+        "strength": -1,
+        "speed": 180
+      }
+    },
+    "robot_team": [
+      "Robot_3",
+      "Robot_1",
+      "Robot_4",
+      "Robot_5",
+      "Robot_2",
+      "Robot_0"
+    ],
+    "object_count": {
+      "missed": 5,
+      "trapped": 2
+    },
+    "misplaced_objects": [
+      "CreditCard_01",
+      "Lettuce_01",
+      "Potato_01",
+      "Newspaper_01",
+      "Bread_01"
+    ],
+    "object_locations": [
+      {
+        "init_location": [6.0, 0.7, 2.36],
+        "init_rotation": [0.0, 270.0, 0.0]
+      },
+      {
+        "init_location": [3.028, 0.7, -5.517],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [-4.84, 1.0, -3.29],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [2.516, 1.0, 0.346],
+        "init_rotation": [0.0, 0.0, 0.0]
+      },
+      {
+        "init_location": [5.65, 1.0, -3.97],
+        "init_rotation": [0.0, 0.0, 0.0]
+      }
+    ]
+  }
+]
