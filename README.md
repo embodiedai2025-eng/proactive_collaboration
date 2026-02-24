@@ -52,7 +52,7 @@ Please make sure to download all files before proceeding with the setup.
 
 #### Environment Requirements
 
-* Unity Version: 2021.3.11fc2 (exact version required to ensure compatibility)
+* Unity Version: 2021.3.11f1 (exact version required to ensure compatibility)
 * Unity Hub: Recommended for managing Unity installations and opening the project.
 * Disk Space: At least 30GB of free space for the Unity project and build process.
 
@@ -84,7 +84,7 @@ Please make sure to download all files before proceeding with the setup.
 
 * For first-time setup, Unity will automatically re-import assets; this may take 30–100 minutes depending on your hardware.
 * If you encounter shader or lighting issues, try Edit → Render Pipeline → Upgrade Project Materials.
-* Keep the Unity version fixed to **2021.3.11fc2** to avoid compatibility issues.
+* Keep the Unity version to **2021.3.11f1** to avoid compatibility issues.
 
 If you don't want to compile it by yourself, we also provide pre-compiled executables for all three operating systems with a pre-configured API port:
 
