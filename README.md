@@ -66,15 +66,18 @@ Please make sure to download all files before proceeding with the setup.
 
 2.	Install the Required Unity Version
    - Open Unity Hub → Installs → Add → Select version **2021.3.11f1** (https://unity.cn/release-notes/full/2021/2021.3.11f1).
-   - Include Android Build Support, WebGL, or other modules if required by the project.
+
 3.	Open the Project in Unity Hub
    - In Unity Hub, click Open and select the downloaded project folder.
    - Unity may take several minutes to import all assets for the first time.
+
 4.	Resolve Missing Packages (if any)
    - If Unity prompts for missing packages, click Install/Update to resolve them.
+
 5.	Run the Project
    - In Unity, open the main scene from the Assets/Scenes directory.
    - Click the Play button to run the project in the editor.
+
 6.	Build & Deploy
    - Go to File → Build Settings.
    - Select the target platform (e.g., Windows, Mac, Android).
@@ -84,9 +87,9 @@ Please make sure to download all files before proceeding with the setup.
 
 * For first-time setup, Unity will automatically re-import assets; this may take 30–100 minutes depending on your hardware.
 * If you encounter shader or lighting issues, try Edit → Render Pipeline → Upgrade Project Materials.
-* Keep the Unity version fixed to **2021.3.11fc2** to avoid compatibility issues.
+* Keep the Unity version fixed to **2021.3.11f1** to avoid compatibility issues.
 
-If you don't want to compile it by yourself, we also provide pre-compiled executables for all three operating systems with a pre-configured API port:
+If you don't want to compile it by yourself, we also provide pre-compiled executables for all three operating systems (Linux, MacOS, Windows) with a pre-configured API port:
 
 [📂 Click here to access the files](https://1drv.ms/f/c/83bc33e10536c5f9/IgARVgOKL8QHTqAilxKK5MVYAY2TeVExKYkf0RJrbAdAGzA?e=uzyI6r)
 
