@@ -203,8 +203,8 @@ def draw_nature_comms_gantt_flat_final():
     plt.tight_layout()
     plt.subplots_adjust(hspace=0.3)
 
-    plt.savefig(out_dir / "main_figure_7.pdf", format="pdf", bbox_inches="tight", dpi=300)
-    plt.savefig(out_dir / "main_figure_7.png", format="png", bbox_inches="tight", dpi=300)
+    plt.savefig(out_dir / "main_figure_6_upper.pdf", format="pdf", bbox_inches="tight", dpi=300)
+    plt.savefig(out_dir / "main_figure_6_upper.png", format="png", bbox_inches="tight", dpi=300)
     plt.close(fig)
 
 

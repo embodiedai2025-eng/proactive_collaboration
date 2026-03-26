@@ -78,40 +78,37 @@ gs = gridspec.GridSpec(
     wspace=0.25,
 )
 
-axes_a = [fig.add_subplot(gs[0, i]) for i in range(3)]
-x = np.arange(len(methods))
+ax_a = fig.add_subplot(gs[0, :])
+ax_a2 = ax_a.twinx()
 width = 0.35
+group_gap = 0.7
+group_size = len(methods)
+all_group_x = []
 
-for idx, (ax1, data, paradigm) in enumerate(zip(axes_a, all_data, paradigms)):
-    bars1 = ax1.bar(
+for idx, (data, paradigm) in enumerate(zip(all_data, paradigms)):
+    x = np.arange(group_size) + idx * (group_size + group_gap)
+    all_group_x.append(x)
+
+    bars1 = ax_a.bar(
         x - width / 2,
         data["SR"],
         width,
-        label="%SR",
         color=COLOR_SR,
         edgecolor="white",
         linewidth=0.5,
     )
-    bars2 = ax1.bar(
+    bars2 = ax_a.bar(
         x + width / 2,
         data["PS"],
         width,
-        label="%PS",
         color=COLOR_PS,
         edgecolor="white",
         linewidth=0.5,
     )
 
-    if idx == 0:
-        ax1.set_ylabel("%SR / %PS (↑)", fontsize=FONT_SIZE_LABEL, color="#444444")
-    ax1.set_xticks(x)
-    ax1.set_xticklabels(methods, fontsize=FONT_SIZE_TICK, rotation=15)
-    ax1.tick_params(axis="y", labelcolor="#444444", labelsize=FONT_SIZE_TICK)
-    ax1.set_ylim(0, 105)
-
     for bar in bars1:
         height = bar.get_height()
-        ax1.annotate(
+        ax_a.annotate(
             f"{height:.1f}",
             xy=(bar.get_x() + bar.get_width() / 4, height),
             xytext=(0, 2),
@@ -125,7 +122,7 @@ for idx, (ax1, data, paradigm) in enumerate(zip(axes_a, all_data, paradigms)):
 
     for bar in bars2:
         height = bar.get_height()
-        ax1.annotate(
+        ax_a.annotate(
             f"{height:.1f}",
             xy=(bar.get_x() + bar.get_width() / 4, height),
             xytext=(0, 2),
@@ -137,39 +134,31 @@ for idx, (ax1, data, paradigm) in enumerate(zip(axes_a, all_data, paradigms)):
             rotation=45,
         )
 
-    ax2 = ax1.twinx()
-    ax2.plot(
+    ax_a2.plot(
         x,
         data["TS"],
         "o-",
         color=COLOR_TS,
         linewidth=2,
         markersize=6,
-        label="#TS",
         markerfacecolor="white",
         markeredgewidth=1.5,
     )
-    ax2.plot(
+    ax_a2.plot(
         x,
         data["AS"],
         "s-",
         color=COLOR_AS,
         linewidth=2,
         markersize=6,
-        label="#AS",
         markerfacecolor="white",
         markeredgewidth=1.5,
     )
 
-    if idx == 2:
-        ax2.set_ylabel("#TS / #AS (↓)", fontsize=FONT_SIZE_LABEL, color="#444444")
-    ax2.tick_params(axis="y", labelcolor="#444444", labelsize=FONT_SIZE_TICK)
-    ax2.set_ylim(16000, 0)
-
     for i, (ts, as_val) in enumerate(zip(data["TS"], data["AS"])):
-        ax2.annotate(
+        ax_a2.annotate(
             f"{ts:.0f}",
-            xy=(i, ts),
+            xy=(x[i], ts),
             xytext=(0, -8),
             textcoords="offset points",
             ha="center",
@@ -177,9 +166,9 @@ for idx, (ax1, data, paradigm) in enumerate(zip(axes_a, all_data, paradigms)):
             fontsize=FONT_SIZE_ANNOTATION,
             color=COLOR_TS,
         )
-        ax2.annotate(
+        ax_a2.annotate(
             f"{as_val:.0f}",
-            xy=(i, as_val),
+            xy=(x[i], as_val),
             xytext=(-8, 0),
             textcoords="offset points",
             ha="right",
@@ -188,10 +177,35 @@ for idx, (ax1, data, paradigm) in enumerate(zip(axes_a, all_data, paradigms)):
             color=COLOR_AS,
         )
 
-    ax1.set_title(f"{paradigm} Paradigm", fontsize=FONT_SIZE_TITLE, pad=10)
-    ax1.yaxis.grid(True, linestyle="--", alpha=0.4, color="#CCCCCC")
-    ax1.set_axisbelow(True)
-    ax1.axvspan(2.5, 3.5, alpha=0.10, color=COLOR_HIGHLIGHT)
+    group_center = float(np.mean(x))
+    ax_a.text(
+        group_center,
+        116.0,
+        f"{paradigm} Paradigm",
+        fontsize=FONT_SIZE_TITLE - 1,
+        ha="center",
+        va="center",
+    )
+    ax_a.axvspan(x[-1] - 0.5, x[-1] + 0.5, alpha=0.10, color=COLOR_HIGHLIGHT)
+
+for idx in range(len(all_group_x) - 1):
+    sep_x = (all_group_x[idx][-1] + all_group_x[idx + 1][0]) / 2
+    ax_a.axvline(sep_x, color="#CFCFCF", linestyle="--", linewidth=0.8, alpha=0.8)
+
+all_x = np.concatenate(all_group_x)
+ax_a.set_xticks(all_x)
+ax_a.set_xticklabels(methods * len(paradigms), fontsize=FONT_SIZE_TICK, rotation=15)
+ax_a.set_ylabel("%SR / %PS (↑)", fontsize=FONT_SIZE_LABEL, color="#444444")
+ax_a.tick_params(axis="y", labelcolor="#444444", labelsize=FONT_SIZE_TICK)
+ax_a.set_ylim(0, 120)
+ax_a.set_xlim(all_x[0] - 0.8, all_x[-1] + 0.8)
+ax_a.yaxis.grid(True, linestyle="--", alpha=0.4, color="#CCCCCC")
+ax_a.set_axisbelow(True)
+
+ax_a2.set_ylabel("#TS / #AS (↓)", fontsize=FONT_SIZE_LABEL, color="#444444")
+ax_a2.tick_params(axis="y", labelcolor="#444444", labelsize=FONT_SIZE_TICK)
+ax_a2.set_ylim(16300, -1400)
+ax_a2.set_yticks(np.arange(0, 16001, 2000))
 
 handles_a = [
     plt.Rectangle((0, 0), 1, 1, color=COLOR_SR, label="%SR"),
@@ -217,16 +231,17 @@ handles_a = [
         label="#AS",
     ),
 ]
-fig.legend(
+ax_a.legend(
     handles=handles_a,
     labels=["%SR ↑", "%PS ↑", "#TS ↓", "#AS ↓"],
-    loc="upper center",
-    ncol=4,
+    loc="center left",
+    ncol=1,
     fontsize=FONT_SIZE_LEGEND,
-    framealpha=0.9,
-    bbox_to_anchor=(0.5, 0.935),
+    framealpha=0.95,
+    bbox_to_anchor=(0.01, 0.33),
+    borderaxespad=0.2,
 )
-fig.text(0.08, 0.90, "a", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
+fig.text(0.08, 0.90, "b", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
 
 ax_b = fig.add_subplot(gs[1, 0:2])
 x_b = np.arange(len(methods))
@@ -326,7 +341,7 @@ y_max = max(
 ax_b.set_ylim(y_min - 5, y_max + 5)
 ax_b.set_xlim(-0.5, len(methods) - 0.5)
 
-fig.text(0.08, 0.48, "b", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
+fig.text(0.08, 0.48, "c", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
 
 ax_c = fig.add_subplot(gs[1, 2], polar=True)
 pos = ax_c.get_position()
@@ -480,11 +495,11 @@ def add_radar_annotations(ax, angle_seq, data, normed, methods_seq, colors):
 
 
 add_radar_annotations(ax_c, angles, comm_data, normalized, comm_methods, colors_radar)
-fig.text(0.67, 0.48, "c", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
+fig.text(0.67, 0.48, "d", fontsize=FONT_SIZE_SUBPLOT_LABEL, fontweight="bold", va="top")
 
 out_dir = Path(__file__).resolve().parent
-png_path = out_dir / "main_figure_9.png"
-pdf_path = out_dir / "main_figure_9.pdf"
+png_path = out_dir / "main_figure_7_lower.png"
+pdf_path = out_dir / "main_figure_7_lower.pdf"
 
 plt.savefig(png_path, dpi=200, bbox_inches="tight", facecolor="white", edgecolor="none")
 plt.savefig(pdf_path, bbox_inches="tight", facecolor="white", edgecolor="none")

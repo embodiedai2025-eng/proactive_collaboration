@@ -13,8 +13,8 @@ UNIFIED_COLORS = {
 }
 
 
-FIG_10A_WIDTH = 2450
-FIG_10A_HEIGHT = int(FIG_10A_WIDTH * 6 / 44)
+FIG_8A_WIDTH = 2450
+FIG_8A_HEIGHT = int(FIG_8A_WIDTH * 6 / 44)
 
 PARADIGMS = ["Fixed", "Responsive", "Proactive"]
 CAPABILITY_DEFICIT = [9, 2, 0]
@@ -23,7 +23,7 @@ REASONING_ERROR = [1, 2, 1]
 SUCCESS = [9, 11, 18]
 
 
-def make_figure_10a() -> None:
+def make_figure_8a() -> None:
     fig = go.Figure()
 
     fig.add_trace(
@@ -89,8 +89,8 @@ def make_figure_10a() -> None:
             tickfont=dict(size=24, family="Arial Black"),
         ),
         font=dict(family="Arial", size=24),
-        width=FIG_10A_WIDTH,
-        height=FIG_10A_HEIGHT,
+        width=FIG_8A_WIDTH,
+        height=FIG_8A_HEIGHT,
         margin=dict(l=15, r=12, t=20, b=28),
         paper_bgcolor="white",
         plot_bgcolor="white",
@@ -112,15 +112,15 @@ def make_figure_10a() -> None:
     fig.update_yaxes(showticklabels=True)
 
     fig.write_image(
-        str(BASE_DIR / "main_figure_10_a.pdf"),
-        width=FIG_10A_WIDTH,
-        height=FIG_10A_HEIGHT,
+        str(BASE_DIR / "main_figure_8_a.pdf"),
+        width=FIG_8A_WIDTH,
+        height=FIG_8A_HEIGHT,
         scale=1,
     )
     fig.write_image(
-        str(BASE_DIR / "main_figure_10_a.png"),
-        width=FIG_10A_WIDTH,
-        height=FIG_10A_HEIGHT,
+        str(BASE_DIR / "main_figure_8_a.png"),
+        width=FIG_8A_WIDTH,
+        height=FIG_8A_HEIGHT,
         scale=1,
     )
 
@@ -264,7 +264,7 @@ def build_sankey_data(mode_name: str, d: dict):
     return node_dict, link_dict, nodes, node_x, node_y
 
 
-def make_figure_10b() -> None:
+def make_figure_8b() -> None:
     fig = go.Figure()
     annotations = []
     configs = [
@@ -332,14 +332,14 @@ def make_figure_10b() -> None:
     fig.update_xaxes(showticklabels=False, showgrid=False, zeroline=False)
     fig.update_yaxes(showticklabels=False, showgrid=False, zeroline=False)
 
-    fig.write_image(str(BASE_DIR / "main_figure_10_b.pdf"), width=fig_w, height=fig_h, scale=1)
-    fig.write_image(str(BASE_DIR / "main_figure_10_b.png"), width=fig_w, height=fig_h, scale=1)
+    fig.write_image(str(BASE_DIR / "main_figure_8_b.pdf"), width=fig_w, height=fig_h, scale=1)
+    fig.write_image(str(BASE_DIR / "main_figure_8_b.png"), width=fig_w, height=fig_h, scale=1)
 
 
 def main() -> None:
-    make_figure_10a()
-    make_figure_10b()
-    print("Done. Generated main_figure_10_a/main_figure_10_b into:", BASE_DIR)
+    make_figure_8a()
+    make_figure_8b()
+    print("Done. Generated main_figure_8_a/main_figure_8_b into:", BASE_DIR)
 
 
 if __name__ == "__main__":

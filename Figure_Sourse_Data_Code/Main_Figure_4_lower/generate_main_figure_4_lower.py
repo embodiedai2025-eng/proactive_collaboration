@@ -38,8 +38,8 @@ def main() -> None:
     bars_l = ax_l.barh(y, success, height=0.35, color=c_success, edgecolor="none")
     ax_l.set_xlim(1.0, 0.0)
     ax_l.set_xticks([1.0, 0.0])
-    ax_l.set_title("Success Rate (%)", pad=10)
-    ax_l.text(-0.08, 1.02, "a", transform=ax_l.transAxes, fontsize=16, fontweight="bold", va="bottom", ha="left")
+    ax_l.set_xlabel("Success Rate (%)", fontsize=12)
+    ax_l.xaxis.set_label_coords(0.5, -0.025)
     ax_l.axvline(0.0, color="#5c5c5c", lw=1)
 
     for rect, val in zip(bars_l, success):
@@ -53,7 +53,8 @@ def main() -> None:
     bars_r = ax_r.barh(y, avg_time, height=0.35, color=c_time, edgecolor="none")
     ax_r.set_xlim(600, 950)
     ax_r.set_xticks([600, 950])
-    ax_r.set_title("Average Time (s) (Lower is Better)", pad=10)
+    ax_r.set_xlabel("Average Time", fontsize=12)
+    ax_r.xaxis.set_label_coords(0.5, -0.025)
     ax_r.axvline(600, color="#5c5c5c", lw=1)
 
     for rect, val in zip(bars_r, avg_time):
@@ -79,27 +80,14 @@ def main() -> None:
     ax_bar.set_ylabel("Conditional Success Rate")
     ax_bar.spines["top"].set_visible(False)
     ax_bar.spines["right"].set_visible(False)
-    ax_bar.text(-0.15, 1.02, "b", transform=ax_bar.transAxes, fontsize=16, fontweight="bold", va="bottom", ha="left")
 
     for xi, h in zip(x_bar, bar_heights):
         ax_bar.text(xi, h + 0.02, f"{h:.2f}", ha="center", va="bottom", fontsize=12)
 
-    handles = [
-        plt.Rectangle((0, 0), 1, 1, color=c_success),
-        plt.Rectangle((0, 0), 1, 1, color=c_time),
-        plt.Rectangle((0, 0), 1, 1, color=c_bar),
-    ]
-    fig.legend(
-        handles,
-        ["Success Rate", "Average Time", "Conditional Success Rate (Suff. Team)"],
-        loc="lower center",
-        ncol=3,
-        frameon=False,
-    )
-    fig.subplots_adjust(bottom=0.18)
+    fig.subplots_adjust(bottom=0.14)
 
     for ext in ("png", "pdf"):
-        out = out_dir / f"main_figure_5.{ext}"
+        out = out_dir / f"main_figure_4_lower.{ext}"
         fig.savefig(out, bbox_inches="tight")
         print(f"Saved: {out}")
 
