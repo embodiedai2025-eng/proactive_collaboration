@@ -11,6 +11,7 @@ build/
 ./logs
 ./outputs
 ./result
+dynateamthor_api/scripts/obs_captures/
 
 # Exclude all dot-prefixed files and directories (except .git which is handled by git itself)
 .*

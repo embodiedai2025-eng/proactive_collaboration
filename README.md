@@ -95,6 +95,8 @@ If you do not want to compile the Unity project yourself, we also provide packag
 
 [📂 Click here to access the files](https://1drv.ms/f/c/83bc33e10536c5f9/IgARVgOKL8QHTqAilxKK5MVYAY2TeVExKYkf0RJrbAdAGzA?e=uzyI6r)
 
+Compared with the v1.1 release, the v1.2 update introduces systematic optimizations to the software stack. On top of the v1.1 foundation, v1.2 provides a more optimized deployment workflow, a richer packaged software bundle, and a more user-friendly HTTP API for integration, testing, and secondary development.
+
 The packaged release includes:
 
 - Standalone builds for Windows, macOS, and Linux desktop.
@@ -115,6 +117,8 @@ The packaged bundle also includes a Python HTTP API kit alongside the player, in
 - `check_http_api.py`
 - reusable helpers
 - example scripts for basic usage, action workflows, and dataset-backed scene initialization
+
+The same API kit is also included in this repository under [dynateamthor_api](/Users/shuyuanzhang/Documents/Codex/2026-05-02/https-github-com-embodiedai2025-eng-proactive/project/dynateamthor_api), so you can inspect the user-facing docs, connectivity checker, helper modules, and runnable examples directly from the source tree.
 
 
 ### Python setup
