@@ -7,6 +7,7 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 using System;
 
+
 public class EnvController : MonoBehaviour
 {
     private bool isPaused = false;
@@ -104,27 +105,33 @@ public class EnvController : MonoBehaviour
 
     public string JointPull(List<string> robotNames,string ObjName,string direction)
     {
-
+        
         GameObject obj = GameObject.Find(ObjName);
 
+        
         string pullPointsName = ObjName + "_PullPoints";
         GameObject pullPoints = GameObject.Find(pullPointsName);
 
+        
         if (obj == null || pullPoints == null)
         {
             return "Object or pull points not found!";
         }
 
+        
         Transform pullPointsTransform = pullPoints.transform;
 
+        
         if (pullPointsTransform == null)
         {
             return "Pull points transform not found!";
         }
 
+        
         Vector3 pulledPosition = obj.transform.position;
         Vector3 pulledDistance = Vector3.zero; 
 
+        
         foreach (Transform child in pullPointsTransform)
         {
             double pullPointX = Math.Round(child.position.x, 2);
@@ -133,7 +140,7 @@ public class EnvController : MonoBehaviour
             double objPosX = Math.Round(obj.transform.position.x, 2);
             double objPosY = Math.Round(obj.transform.position.y, 2);
             double objPosZ = Math.Round(obj.transform.position.z, 2);
-
+            
             if (direction == "(0,0,1)" && pullPointX == objPosX &&
                 pullPointY == objPosY && pullPointZ > objPosZ)
             {
@@ -178,10 +185,11 @@ public class EnvController : MonoBehaviour
             Debug.Log(pullPointX == objPosX);
         }
 
+        
         if (obj.transform.position != pulledPosition)
         {
             obj.transform.position = pulledPosition;
-
+            
             foreach (string robotName in robotNames)
             {
                 GameObject robot = GameObject.Find(robotName);
@@ -193,6 +201,7 @@ public class EnvController : MonoBehaviour
             return "Success";
         }
 
+        
         return "Wrong Direction";
     }
 
@@ -203,7 +212,9 @@ public class EnvController : MonoBehaviour
 
     public void SingleRobotSetup(string type, string name, Vector3 position, Vector3 rotation, string armLength, string strength, string robotLow, string robotHigh)
     {
-
+        
+        
+        
         GameObject existingRobot = GameObject.Find(name);
         if (existingRobot != null)
         {
@@ -227,7 +238,7 @@ public class EnvController : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }
-
+    
     public void GamePasue()
     {
         Time.timeScale = 0;
@@ -238,7 +249,7 @@ public class EnvController : MonoBehaviour
         GameObject gamePauseObject = CommunicationUI.transform.Find("game_pause_panel").gameObject;
         gamePauseObject.SetActive(true);
     }
-
+    
     public void GameResume()
     {
         if (Time.timeScale == 0)
@@ -250,7 +261,7 @@ public class EnvController : MonoBehaviour
             GameObject gamePauseObject = CommunicationUI.transform.Find("game_pause_panel").gameObject;
             gamePauseObject.SetActive(false);
         }
-
+        
     }
 
     public Dictionary<string, string> GetCommunicationStatus()
@@ -258,7 +269,7 @@ public class EnvController : MonoBehaviour
         npcs = GameObject.FindObjectsOfType<GameObject>();
         npcs = System.Array.FindAll(npcs, npc => npc.name.Contains(npcNameContains));
         Dictionary<string, string> CommunicationStatus = new Dictionary<string, string>();
-
+        
         foreach (GameObject obj in npcs)
         {
             Debug.Log("comfirmState"+obj.GetComponent<RobotController>().comfirmInfo.Count);
@@ -271,7 +282,7 @@ public class EnvController : MonoBehaviour
                 string comfirmState = obj.GetComponent<RobotController>().comfirmInfo[obj.GetComponent<RobotController>().comfirmInfo.Count - 1];
                 CommunicationStatus.Add(obj.name, comfirmState);
             }
-
+           
         }
         return CommunicationStatus;
     }
@@ -285,7 +296,7 @@ public class EnvController : MonoBehaviour
             for (float z = bounds.min.z; z <= bounds.max.z; z += step)
             {
                 Vector3 point = new Vector3(x, 0f, z);
-
+                
                 if (NavMesh.SamplePosition(point, out NavMeshHit hit, 0.1f, NavMesh.AllAreas))
                 {
                     string vecString = "("+$"{hit.position.x:F1},{hit.position.y:F1},{hit.position.z:F1}"+")"; 
@@ -309,10 +320,13 @@ public class EnvController : MonoBehaviour
             return false;
         }
 
+        
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(displayCamera);
         if (GeometryUtility.TestPlanesAABB(planes, objRenderer.bounds))
         {
             Debug.Log("TestPlanesAABB true");
+            
+            
 
             Bounds bounds = objRenderer.bounds;
             Vector3[] pointsToCheck = new Vector3[]

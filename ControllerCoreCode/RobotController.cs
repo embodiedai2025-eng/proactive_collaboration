@@ -6,6 +6,7 @@ using UnityEngine.AI;
 using UnityEngine.UI;
 using static OVRInput;
 
+
 public class RobotController : MonoBehaviour
 {
     public string robotType;
@@ -19,12 +20,14 @@ public class RobotController : MonoBehaviour
     private Vector3 startPosition;
     public bool inputReceived = false;
 
+    
     public void Teleport(Vector3 targetPosition, Vector3 targetRotation)
     {
         transform.position = targetPosition;
         transform.rotation = Quaternion.Euler(targetRotation);
     }
 
+    
     public void Pick(string ObjName,string robotName)
     {
         GameObject robot = GameObject.Find(robotName);
@@ -41,22 +44,24 @@ public class RobotController : MonoBehaviour
         Rigidbody ObjRb = Obj.GetComponent<Rigidbody>();
         ObjRb.useGravity = false;
         ObjRb.isKinematic = true;
-
+        
         GameObject hand = robot.transform.Find("Hand")?.gameObject;
         if (hand == null)
         {
             Debug.LogError($"������Hand component not found under robot: {robotName}. Please check the hierarchy.");
             return;
         }
-
+        
+        
         Obj.transform.position = hand.transform.position;
-
+        
         Obj.transform.SetParent(hand.transform);
-
+        
     }
-
+    
     public void Place(string objName, Vector3 placePosition, Vector3 placeRotation)
     {
+        
 
         GameObject Obj = GameObject.Find(objName);
         Transform ObjMesh = Obj.transform.Find("mesh");
@@ -71,7 +76,7 @@ public class RobotController : MonoBehaviour
         Rigidbody ObjRb = Obj.GetComponent<Rigidbody>();
         ObjRb.useGravity = true;
         ObjRb.isKinematic = false;
-
+        
         GameObject Type = GameObject.Find("StaticObjects");
         Obj.transform.SetParent(Type.transform);
         Obj.transform.position = placePosition;
@@ -80,30 +85,36 @@ public class RobotController : MonoBehaviour
 
     public string Pull(string ObjName, string robotName, string direction)
     {
-
+        
         GameObject robot = GameObject.Find(robotName);
         GameObject obj = GameObject.Find(ObjName);
 
+        
         string pullPointsName = ObjName + "_PullPoints";
         GameObject pullPoints = GameObject.Find(pullPointsName);
 
+        
         if (obj == null || pullPoints == null)
         {
             return "Object or pull points not found!";
         }
 
+        
         Transform pullPointsTransform = pullPoints.transform;
 
+        
         if (pullPointsTransform == null)
         {
             return "Pull points transform not found!";
         }
 
+        
         Vector3 pulledPosition = obj.transform.position;
 
+        
         foreach (Transform child in pullPointsTransform)
         {
-
+            
             if (direction == "(0,0,1)" && child.position.x == obj.transform.position.x &&
                 child.position.y == obj.transform.position.y && child.position.z > obj.transform.position.z)
             {
@@ -130,18 +141,21 @@ public class RobotController : MonoBehaviour
             }
         }
 
+        
         if (obj.transform.position != pulledPosition)
         {
             obj.transform.position = pulledPosition; 
             return "Success";
         }
 
+        
         return "Wrong Direction";
     }
 
+
     bool IsItemVisible(GameObject robot, GameObject Obj)
     {
-
+        
         RaycastHit hit;
         Vector3 direction = Obj.transform.position - robot.transform.position;
         if (Physics.Raycast(robot.transform.position, direction, out hit))
@@ -156,6 +170,7 @@ public class RobotController : MonoBehaviour
         return true;
     }
 
+    
     private float activeTime;
     public void CommunicateWithHuman(string robotName, string text, string img, Vector3 mark_position)
 
@@ -177,7 +192,7 @@ public class RobotController : MonoBehaviour
     }
     private void ShowCommunicationUI(string robotName, string text, string img)
     {
-
+       
         GameObject humObject = GameObject.Find("Hum");
         if (humObject == null)
         {
@@ -220,7 +235,7 @@ public class RobotController : MonoBehaviour
             {
                 Debug.LogError("RobotMessage object not found in " + panelName + ".");
             }
-
+            
             StartCoroutine(HandleInputAndDelay(targetPanel, panelName));
         }
         else
@@ -228,11 +243,11 @@ public class RobotController : MonoBehaviour
             Debug.LogError(panelName + " object not found in CommunicationUI.");
         }
     }
-
+    
     private IEnumerator HandleInputAndDelay(Transform targetPanel,string panelName)
     {
         float elapsedTime = 0f;
-
+        
         Debug.Log("HandleInputAndDelay");
         while (elapsedTime < 15f)
         {
@@ -247,6 +262,17 @@ public class RobotController : MonoBehaviour
                 targetPanel.gameObject.SetActive(false);
                 gamePauseObject.SetActive(true);
                 break;
+
+                
+
+
+
+
+
+
+
+
+
 
             }
             else if (GetDown(OVRInput.Button.Two))
@@ -265,26 +291,27 @@ public class RobotController : MonoBehaviour
         }
         targetPanel.gameObject.SetActive(false);
     }
-
+    
     public void Move(Vector2 singleRobotMagnitude, float moveSpeed)
     {
-
+        
+        
         Vector3 forwardDirection = transform.forward * singleRobotMagnitude.x;
         Vector3 rightDirection = transform.right * singleRobotMagnitude.y;
         Vector3 targetPosition = transform.position + forwardDirection + rightDirection;
         Debug.Log("targetPosition" + targetPosition);
         agent = GetComponent<NavMeshAgent>();
         startPosition = transform.position;
-
+        
         agent.speed = moveSpeed;
-
+        
         agent.SetDestination(targetPosition);
     }
-
+    
     public void Rotate(float rotateAngle)
     {
         Quaternion rotation = Quaternion.Euler(0, rotateAngle, 0);
-
+        
         transform.rotation = transform.rotation * rotation;;
     }
     public (string, string) GetRobotRgbdBase64(string rgbOrRgbd, string robotName, int width, int height)
@@ -301,9 +328,9 @@ public class RobotController : MonoBehaviour
                 Camera camera = cameraTransform.GetComponent<Camera>();
                 if (camera != null)
                 {
-
-                    camera.depthTextureMode = DepthTextureMode.Depth;
-
+                    
+                    camera.depthTextureMode |= DepthTextureMode.Depth | DepthTextureMode.DepthNormals;
+                    
                     (string rgbBase64, string depthBase64) = CaptureImages(camera, width, height);
                     if (rgbOrRgbd == "rgb")
                     {
@@ -332,37 +359,32 @@ public class RobotController : MonoBehaviour
     }
     private (string rgbBase64, string depthBase64) CaptureImages(Camera camera, int width, int height)
     {
+        camera.depthTextureMode |= DepthTextureMode.Depth | DepthTextureMode.DepthNormals;
 
         RenderTexture renderTexture = new RenderTexture(width, height, 24);
-        RenderTexture depthRenderTexture = new RenderTexture(width, height, 24, RenderTextureFormat.Depth);
-
         Texture2D rgbTexture = new Texture2D(width, height, TextureFormat.RGB24, false);
-        Texture2D depthTexture = new Texture2D(width, height, TextureFormat.RGB24, false);
 
         RenderTexture currentRT = RenderTexture.active;
-        RenderTexture.active = renderTexture;
         camera.targetTexture = renderTexture;
         camera.Render();
 
+        RenderTexture.active = renderTexture;
         rgbTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
         rgbTexture.Apply();
 
-        camera.targetTexture = depthRenderTexture;
-        camera.Render();
+        byte[] rgbBytes = rgbTexture.EncodeToPNG();
+        string rgbBase64 = Convert.ToBase64String(rgbBytes);
 
-        depthTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
-        depthTexture.Apply();
+        byte[] depthBytes = DepthVisualizeCapture.CaptureDepthAsPng(camera, width, height);
+        if (depthBytes == null)
+            DepthVisualizeCapture.LogDepthFailureDiagnostics(camera, width, height);
+        string depthBase64 = depthBytes != null ? Convert.ToBase64String(depthBytes) : null;
 
         RenderTexture.active = currentRT;
         camera.targetTexture = null;
 
-        byte[] rgbBytes = rgbTexture.EncodeToPNG();
-        string rgbBase64 = Convert.ToBase64String(rgbBytes);
-        byte[] depthBytes = depthTexture.EncodeToPNG();
-        string depthBase64 = Convert.ToBase64String(depthBytes);
-
-        RenderTexture.ReleaseTemporary(renderTexture);
-        RenderTexture.ReleaseTemporary(depthRenderTexture);
+        Destroy(renderTexture);
+        Destroy(rgbTexture);
 
         return (rgbBase64, depthBase64);
     }

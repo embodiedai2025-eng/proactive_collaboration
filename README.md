@@ -36,7 +36,7 @@ Our environment and codebase have been tested across multiple platforms, includi
 
 ## Environment Setup
 
-For DynaTeamThor, we provide the full Unity source code to ensure cross-platform compatibility (Linux, macOS, and Windows). We highly recommend compiling the environment from source if you wish to customize the API port or extend the environment's functionality. Additionally, we provide pre-compiled executables for all three operating systems with a pre-configured API port.
+For DynaTeamThor, we provide the full Unity source code to ensure cross-platform compatibility (Linux, macOS, and Windows). We highly recommend compiling the environment from source if you wish to customize the API port or extend the environment's functionality. In addition, we provide packaged executables for users who prefer a faster setup path.
 
 
 #### Project Code and Resources Download
@@ -89,9 +89,32 @@ Please make sure to download all files before proceeding with the setup.
 * If you encounter shader or lighting issues, try Edit → Render Pipeline → Upgrade Project Materials.
 * Keep the Unity version fixed to **2021.3.11f1** to avoid compatibility issues.
 
-If you don't want to compile it by yourself, we also provide pre-compiled executables for all three operating systems (Linux, MacOS, Windows) with a pre-configured API port:
+#### Prebuilt Executables
+
+If you do not want to compile the Unity project yourself, we also provide packaged executables through a separate OneDrive bundle:
 
 [📂 Click here to access the files](https://1drv.ms/f/c/83bc33e10536c5f9/IgARVgOKL8QHTqAilxKK5MVYAY2TeVExKYkf0RJrbAdAGzA?e=uzyI6r)
+
+The packaged release includes:
+
+- Standalone builds for Windows, macOS, and Linux desktop.
+- A Linux headless build for servers, containers, SSH sessions, and other environments without a display.
+
+The main workflow difference is that the packaged builds expose a configurable HTTP listener:
+
+| Mode | How to configure the listener |
+| --- | --- |
+| Graphical builds | Use the startup dialog to enter the full URL, or keep the default value. |
+| Headless / batch builds | Use `--http-url`, `--http-port`, or the `THOR_HTTP_URL` / `THOR_HTTP_PORT` environment variables. |
+
+When launching the Python client, always use a consistent base URL and make sure it matches the actual listener used by the simulator executable.
+
+The packaged bundle also includes a Python HTTP API kit alongside the player, including:
+
+- HTTP API documentation
+- `check_http_api.py`
+- reusable helpers
+- example scripts for basic usage, action workflows, and dataset-backed scene initialization
 
 
 ### Python setup
@@ -143,4 +166,3 @@ Run the following command sequentially for each scene:
 # Example: python main.py --scene 0 --remote_url "http://127.0.0.1:1234/" --exp_name "qwen3-max"
 python main.py --scene 0 --remote_url "<YOUR_ENVIRONMENT_URL>" --exp_name "YOUR_EXPERIMENT_NAME"
 ```
-

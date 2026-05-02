@@ -20,5 +20,5 @@ public class RuntimeNavMeshBaker : MonoBehaviour
                 surface.BuildNavMesh();
             }
     }
-
+ 
 }

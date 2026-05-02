@@ -9,33 +9,99 @@ using System;
 
 public class CameraController : MonoBehaviour
 {
-
+    
     public LayerMask targetLayer;
     public float maxDistance = 1.0f;
+
 
     public List<string> getObjectsInView(Camera camera)
     {
         Debug.Log("Starting getObjectsInView method...");
 
+        
         if (camera == null)
         {
             Debug.LogError("Camera is null.");
             return new List<string>();
         }
 
+        
         GameObject PickUpableParent = SafeFind("PickUpableObjects");
         GameObject MoveableParent = SafeFind("MoveableObjects");
         GameObject StaticParent = SafeFind("StaticObjects");
+        
 
         List<GameObject> InViewObjects = new List<GameObject>();
         List<string> InViewObjectsString = new List<string>();
 
         try
         {
+            
+            
 
+
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
             ProcessParentObjects(PickUpableParent, "PickUpableObjects", camera, InViewObjects, InViewObjectsString);
             ProcessParentObjects(MoveableParent, "MoveableObjects", camera, InViewObjects, InViewObjectsString);
             ProcessParentObjects(StaticParent, "StaticObjects", camera, InViewObjects, InViewObjectsString);
+            
 
             Debug.Log($"Total objects in view: {InViewObjectsString.Count}");
         }
@@ -46,6 +112,82 @@ public class CameraController : MonoBehaviour
 
         Debug.Log("Finished getObjectsInView method.");
         return InViewObjectsString;
+    }
+
+    /// <summary>
+    /// Renders the given camera to a PNG and returns base64. Uses the same view as getObjectsInView (displayCamera).
+    /// </summary>
+    public string CaptureRgbPngBase64(Camera camera, int width, int height)
+    {
+        if (camera == null || width <= 0 || height <= 0)
+        {
+            Debug.LogError("CaptureRgbPngBase64: invalid camera or size.");
+            return null;
+        }
+
+        RenderTexture renderTexture = new RenderTexture(width, height, 24);
+        Texture2D rgbTexture = new Texture2D(width, height, TextureFormat.RGB24, false);
+        RenderTexture currentRT = RenderTexture.active;
+
+        try
+        {
+            RenderTexture.active = renderTexture;
+            camera.targetTexture = renderTexture;
+            camera.Render();
+            rgbTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+            rgbTexture.Apply();
+            byte[] rgbBytes = rgbTexture.EncodeToPNG();
+            return Convert.ToBase64String(rgbBytes);
+        }
+        finally
+        {
+            RenderTexture.active = currentRT;
+            camera.targetTexture = null;
+            Destroy(renderTexture);
+            Destroy(rgbTexture);
+        }
+    }
+
+    /// <summary>
+    /// RGB + depth visualization (geometry pass + optional _CameraDepthTexture fallback).
+    /// </summary>
+    public (string rgbBase64, string depthBase64) CaptureRgbdPngBase64(Camera camera, int width, int height)
+    {
+        if (camera == null || width <= 0 || height <= 0)
+        {
+            Debug.LogError("CaptureRgbdPngBase64: invalid camera or size.");
+            return (null, null);
+        }
+
+        camera.depthTextureMode |= DepthTextureMode.Depth | DepthTextureMode.DepthNormals;
+
+        RenderTexture rgbRt = new RenderTexture(width, height, 24);
+        Texture2D rgbTexture = new Texture2D(width, height, TextureFormat.RGB24, false);
+        RenderTexture currentRT = RenderTexture.active;
+
+        try
+        {
+            camera.targetTexture = rgbRt;
+            camera.Render();
+            RenderTexture.active = rgbRt;
+            rgbTexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+            rgbTexture.Apply();
+
+            string rgbB64 = Convert.ToBase64String(rgbTexture.EncodeToPNG());
+
+            byte[] depthPng = DepthVisualizeCapture.CaptureDepthAsPng(camera, width, height);
+            if (depthPng == null)
+                DepthVisualizeCapture.LogDepthFailureDiagnostics(camera, width, height);
+            string depthB64 = depthPng != null ? Convert.ToBase64String(depthPng) : null;
+            return (rgbB64, depthB64);
+        }
+        finally
+        {
+            RenderTexture.active = currentRT;
+            camera.targetTexture = null;
+            Destroy(rgbRt);
+            Destroy(rgbTexture);
+        }
     }
 
     private GameObject SafeFind(string name)
@@ -97,6 +239,9 @@ public class CameraController : MonoBehaviour
         }
     }
 
+
+
+
     void FindNeighborsWithRaycast(GameObject targetObject)
     {
         Vector3 position = targetObject.transform.position;
@@ -123,6 +268,11 @@ public class CameraController : MonoBehaviour
     {
         Renderer[] objRenderers = obj.GetComponentsInChildren<Renderer>();
 
+
+
+
+
+
         if (objRenderers == null)
         {
             Debug.LogError($"{obj.name} does not have a Renderer component.");
@@ -131,11 +281,13 @@ public class CameraController : MonoBehaviour
 
         foreach (Renderer objRenderer in objRenderers)
         {
-
+            
             Plane[] planes = GeometryUtility.CalculateFrustumPlanes(displayCamera);
             if (GeometryUtility.TestPlanesAABB(planes, objRenderer.bounds))
             {
                 Debug.Log("### TestPlanesAABB true  " + obj.name);
+                
+                
 
                 Bounds bounds = objRenderer.bounds;
                 Vector3[] pointsToCheck = new Vector3[]
@@ -150,10 +302,10 @@ public class CameraController : MonoBehaviour
                     GetTwoThirdsPoint(bounds.center, new Vector3(bounds.max.x, bounds.max.y, bounds.min.z)),  
                     GetTwoThirdsPoint(bounds.center, new Vector3(bounds.max.x, bounds.max.y, bounds.max.z)),  
                 };
-
+                
                 foreach (var point in pointsToCheck)
                 {
-
+                    
                     if (IsPointVisible(displayCamera, point, obj))
                     {
                         return true;
@@ -172,7 +324,7 @@ public class CameraController : MonoBehaviour
 
     bool IsPointVisible(Camera cam, Vector3 point, GameObject obj)
     {
-
+        
         if (cam == null)
         {
             Debug.LogError("Camera is null in IsPointVisible.");
@@ -198,6 +350,7 @@ public class CameraController : MonoBehaviour
             return false;
         }
 
+        
         bool isInFrustum = viewportPoint.z > 0 &&
                            viewportPoint.x >= 0 && viewportPoint.x <= 1 &&
                            viewportPoint.y >= 0 && viewportPoint.y <= 1;
@@ -208,6 +361,9 @@ public class CameraController : MonoBehaviour
         }
 
         RaycastHit hit;
+    
+
+
 
         try
         {
@@ -250,10 +406,12 @@ public class CameraController : MonoBehaviour
         return false;
     }
 
+
     List<GameObject> GetFirstLevelActiveChildren(GameObject obj)
     {
         List<GameObject> children = new List<GameObject>();
 
+        
         foreach (Transform child in obj.transform)
         {
             if (child.gameObject.activeSelf == true)
@@ -266,3 +424,4 @@ public class CameraController : MonoBehaviour
     }
 
 }
+

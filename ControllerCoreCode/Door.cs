@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-
+    
+    
     [Header("��ת�Ƕ�")]
     public float angle = 90f;
     [Header("����")]
@@ -15,10 +16,16 @@ public class Door : MonoBehaviour
     [Header("��ת����")]
     public bool xAxial =false, yAxial=true, zAxial=false;
 
+
     private float menAngle = 0;
+
+    
 
     private bool state = false;
 
+    
+    
+    
     [HideInInspector]
     public bool ActivateControl = true;
     Vector3 angleStart = Vector3.zero;
@@ -50,7 +57,7 @@ public class Door : MonoBehaviour
     public bool test = false;
     private void Update()
     {
-
+        
         if (test==true)
         {
             Debug.Log("test" + test);
@@ -60,7 +67,7 @@ public class Door : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         GameObject[] l = GameObject.FindGameObjectsWithTag("hand");
-
+        
         for (int i = 0; i < l.Length; i++)
         {
             Transform[] t = l[i].GetComponentsInChildren<Transform>();
@@ -76,7 +83,7 @@ public class Door : MonoBehaviour
         }
         Debug.Log("Door OnCollisionEnter" + transform.name);
         Debug.Log("Door OnCollisionEnter collision" + collision.transform.gameObject);
-
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -85,7 +92,7 @@ public class Door : MonoBehaviour
         Debug.Log("Door OnTriggerEnter Collider other" + other.transform.gameObject);
 
         GameObject[] l = GameObject.FindGameObjectsWithTag("hand");
-
+        
         for (int i = 0; i < l.Length; i++)
         {
             Transform[] t = l[i].GetComponentsInChildren<Transform>();
